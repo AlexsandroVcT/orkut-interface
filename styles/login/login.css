@@ -1,0 +1,88 @@
+
+
+.container{
+    width: 80%;
+    height: 80vh;    
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 3%;
+    box-shadow: 10px 9px 24px 3px rgba(64,61,61,0.69);
+    max-width: 650px;
+
+   
+}
+
+.fields{
+    margin: 5% 10%;
+}
+
+.field_title{
+    display: flex;
+    justify-content: center;
+}
+
+#field_title{
+    font-size:15px ;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+
+.fields_textboxs {
+
+    margin-bottom: 5%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fields_textboxs > input{
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.fields_remember{
+    margin-bottom: 20px;
+}
+#btnlogin{
+    width: 100%;
+    border: none;    
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.fields_recovery >a, .fields_create >a{
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+
+}
+.fields_recovery{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+.fields_create{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;  
+    margin-top: 100px;
+    align-items: flex-end;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.logo > img{
+    height: 80px;
+
+}
